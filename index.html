@@ -1,20 +1,235 @@
-
 <!-- this line convert to html 5 -->
 <!DOCTYPE html>
 
-<!-- starting html tag -->
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Goverment officer">
-        <link rel="shortcut icon" href="https://yagneshmodh.com/favicon.ico">
-        <title>Karen Website</title>
-    </head>
-    <body>
+<!-- Providing CSS -->
+<!-- 1. Embadded StyleSheets -->
+<!-- 2. External StyleSheet -->
+<!-- 3. Inline Styles -->
 
-        <header>
+<!-- starting html tag -->
+<!-- Priority -->
+<!-- 1. Inline Style -->
+<!-- 2. Order -->
+<!-- 3. HTML Style -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Goverment officer" />
+    <link rel="shortcut icon" href="https://yagneshmodh.com/favicon.ico" />
+    <title>Karen Website</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+
+    <div>
+        <div class="box"></div>
+    </div>
+
+    <!-- <p>Lorem ipsum dolor, sit amet <strong>consectetur</strong> adipisicing elit. Fugit, eos?</p> -->
+      <!-- <article>
+          <h1 id="heading" class="heighlight">Highlighter Text</h1>
+      </article> -->
+      <!-- <h1>Lorem, ipsum dolor.</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. A, cum
+      aspernatur! Assumenda sint dolore dolorem, suscipit sed quas architecto
+      commodi corporis eaque officia placeat libero incidunt iste nesciunt
+      aspernatur saepe sunt perspiciatis omnis pariatur impedit? Itaque tempora
+      qui quo corrupti exercitationem, ab voluptas culpa, quibusdam eveniet
+      molestias rerum assumenda vero doloremque nostrum voluptatem suscipit
+      accusantium nisi ut nobis sequi praesentium. Distinctio ex, earum facere
+      delectus sed facilis accusantium quam cumque nam deserunt est nobis sequi
+      consequatur! Odit, labore fugiat atque, eos distinctio eum cumque numquam
+      perspiciatis sint earum rem velit veniam repudiandae, qui quos laudantium
+      odio nihil repellat ab excepturi!
+    </p> -->
+
+    <!-- <article>
+            <h1>Lorem, ipsum.</h1>
+            <h2>Lorem, ipsum dolor.</h2>
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </article> -->
+
+    <!-- <section id="products">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, exercitationem?</p>
+            </article>
+
+            <section>
+
+            </section>
+            <p>Lorem ipsum dolor sit amet.</p>
+
+        </section>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p> -->
+
+    <!-- style attribut -->
+    <!-- <p class="lorem10 bgRed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, consectetur?</p>
+        <p class="lorem5 bgYellow">Lorem ipsum dolor sit amet.</p>
+        <p class="lorem10 bgRed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, illo.</p>
+        <p class="lorem5 bgYellow">Lorem ipsum dolor sit amet.</p> -->
+
+    <!-- <a href="https://www.google.com" target="_blank">Google</a>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.facebook.in">Facebook</a> -->
+
+    <!-- <div>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <section>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </section> -->
+
+    <!-- <form>
+            <div>
+                <input type="text" placeholder="Name" required>
+            </div>
+
+            <div>
+                <input type="email" placeholder="Email" required>
+            </div>
+
+            <div>
+                <textarea cols="15" rows="5" placeholder="Description" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Send Message</button>
+            </div>
+        </form> -->
+
+    <!-- <form>
+            <div>
+                <label for="txtName">Name</label>
+                <input type="text" placeholder="name" id="txtName" required>
+            </div>
+
+            <div>
+                <label for="txtEmail">Email</label>
+                <input type="email" placeholder="Email" id="txtEmail" required>
+            </div>
+
+            <div>
+                <input type="tel" placeholder="Phone" required>
+            </div>
+
+            <div>
+                <input type="number" placeholder="age" max="100" min="0" required>
+            </div>
+
+            <div>
+                <label for="rangeAge">Age</label>
+                <input id="rangeAge" type="range" min="0" max="100" required>
+            </div>
+
+            <div>
+                
+                <input type="radio" name="gender" id="male">
+                <input type="radio" name="gender" id="female">Female</input>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Choose your favorite Hobby</legend>
+                    <input type="checkbox" name="hobby" id="football">Football</input>
+                    <input type="checkbox" name="hobby" id="cricket">Cricket</input>
+                    <input type="checkbox" name="hobby" id="badminton">Badminton</input>
+                    <input type="checkbox" name="hobby" id="hocky">Hocky</input>
+                    <input type="checkbox" name="hobby" id="tennis">Tennis</input>
+            </fieldset>
+            </div>
+
+            <select>
+                <option value="">Please Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <select multiple>
+                <optgroup label="Sports">
+                    <option value="cricket">Cricket</option>
+                    <option value="cricket">Football</option>
+                </optgroup>
+                <optgroup label="Activity">
+                    <option value="painting">Painting</option>
+                    <option value="dancing">Dancing</option>
+                </optgroup>
+            </select>
+
+            <div>
+                <input type="file" multiple>
+            </div>
+
+            <div>
+                <label for="browser">Choose your browser from the list:</label>
+                <input list="browsers" name="browser" id="browser">
+
+                <datalist id="browsers">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+
+            </div>
+
+            <fieldset>
+                <legend>Choose your favorite monster</legend>
+            
+                <input type="radio" id="kraken" name="monster">
+                <label for="kraken">Kraken</label><br/>
+            
+                <input type="radio" id="sasquatch" name="monster">
+                <label for="sasquatch">Sasquatch</label><br/>
+            
+                <input type="radio" id="mothman" name="monster">
+                <label for="mothman">Mothman</label>
+            </fieldset>
+            
+
+
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>            
+        </form> -->
+
+    <!-- <input type="text" />
+        <input type="password" />
+        <input type="email" />
+        <input type="tel" />
+        <input type="number" />
+        <input type="date" />
+        <input type="time" />
+        <input type="datetime" />
+        <input type="search">
+        <input type="color">
+
+        <input type="checkbox">
+
+        <input type="radio">
+
+        <input type="range" max="100" min="0"> -->
+
+    <!-- <header>
            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nam.</h1>
         </header>
 
@@ -114,10 +329,10 @@
 
         <footer>
             <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, illo!</h2>
-        </footer>
+        </footer> -->
 
-        <!-- if you apply h1-h6 in sequance then & then  SEO will work -->
-        <!-- <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corrupti.</h1>
+    <!-- if you apply h1-h6 in sequance then & then  SEO will work -->
+    <!-- <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corrupti.</h1>
         <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, hic.</h2>
         <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, hic.</h2>
         <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, maxime.</h3>
@@ -127,22 +342,22 @@
         <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, molestiae?</h5>
         <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, nobis!</h6> -->
 
-        <!-- b tag is description -->
+    <!-- b tag is description -->
 
-        <!-- strong tag help in accesibility -->
-        <!-- also help in seo -->
+    <!-- strong tag help in accesibility -->
+    <!-- also help in seo -->
 
-        <!-- <p>Lorem ipsum dolor sit amet <b>consectetur</b>,  elit. <strong>Reiciendis</strong> itaque praesentium labore. Quam est, facilis totam sapiente nihil laborum temporibus voluptatem reprehenderit praesentium sunt mollitia fuga sit! Illo, doloribus porro quam tenetur dolorum cupiditate veniam quia quisquam expedita voluptates error odio officia aspernatur minima numquam fuga adipisci alias? Praesentium, provident ipsam. Temporibus facilis laudantium adipisci, ut animi natus accusamus soluta. Quia debitis eius praesentium esse dolore non mollitia ipsam officia nemo, necessitatibus accusantium dolor voluptatibus ab odio eos nostrum quo, impedit rerum magni facilis illo dolorum? Deserunt, iure. Cum, incidunt dolorum quos dolor unde recusandae ipsum repellendus saepe rem ducimus.</p> -->
+    <!-- <p>Lorem ipsum dolor sit amet <b>consectetur</b>,  elit. <strong>Reiciendis</strong> itaque praesentium labore. Quam est, facilis totam sapiente nihil laborum temporibus voluptatem reprehenderit praesentium sunt mollitia fuga sit! Illo, doloribus porro quam tenetur dolorum cupiditate veniam quia quisquam expedita voluptates error odio officia aspernatur minima numquam fuga adipisci alias? Praesentium, provident ipsam. Temporibus facilis laudantium adipisci, ut animi natus accusamus soluta. Quia debitis eius praesentium esse dolore non mollitia ipsam officia nemo, necessitatibus accusantium dolor voluptatibus ab odio eos nostrum quo, impedit rerum magni facilis illo dolorum? Deserunt, iure. Cum, incidunt dolorum quos dolor unde recusandae ipsum repellendus saepe rem ducimus.</p> -->
 
-        <!-- i tag is depricated -->
+    <!-- i tag is depricated -->
 
-        <!-- em tag help in accesibility -->
-        <!-- also help in seo -->
-        
-        <!-- <p>Lorem ipsum dolor sit amet <i>consectetur</i> adipisicing elit. Sit ipsam <em>consequuntur</em> fuga. Officia, dicta animi placeat facilis consequatur dolor tempora rerum. Esse in accusantium tempore iure cumque odio, hic mollitia aspernatur, non maxime aliquid porro est dolor unde! Consectetur tenetur dolor illum ea. Labore nobis velit magni. Hic quam tenetur dolores repudiandae delectus id odio aut doloribus rem ducimus asperiores blanditiis nisi unde enim, tempora eligendi dicta a repellendus sit maiores necessitatibus quas! Maiores doloribus tenetur a maxime labore rem neque dolorem. Natus reiciendis culpa vel perferendis dolorum illo animi aspernatur iste sed ab itaque voluptate, molestiae sequi nihil officiis.</p> -->
+    <!-- em tag help in accesibility -->
+    <!-- also help in seo -->
 
-        <!-- TOOD: Complete xyz -->
-        <!-- <div>
+    <!-- <p>Lorem ipsum dolor sit amet <i>consectetur</i> adipisicing elit. Sit ipsam <em>consequuntur</em> fuga. Officia, dicta animi placeat facilis consequatur dolor tempora rerum. Esse in accusantium tempore iure cumque odio, hic mollitia aspernatur, non maxime aliquid porro est dolor unde! Consectetur tenetur dolor illum ea. Labore nobis velit magni. Hic quam tenetur dolores repudiandae delectus id odio aut doloribus rem ducimus asperiores blanditiis nisi unde enim, tempora eligendi dicta a repellendus sit maiores necessitatibus quas! Maiores doloribus tenetur a maxime labore rem neque dolorem. Natus reiciendis culpa vel perferendis dolorum illo animi aspernatur iste sed ab itaque voluptate, molestiae sequi nihil officiis.</p> -->
+
+    <!-- TOOD: Complete xyz -->
+    <!-- <div>
             <a href="https://www.google.com" target="_blank">Google Link</a>
         </div>
         <div>
@@ -152,10 +367,7 @@
         <div>
             1<sub>st</sub> year Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, delectus?
         </div> -->
-
-
-
-    </body>
+  </body>
 </html>
 <!-- ending html tag -->
 

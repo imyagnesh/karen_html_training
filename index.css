@@ -1,0 +1,199 @@
+/* relational Selectors */
+/* 1. cleaner markup */
+/* can be fragile */
+/* not fast as basic selector */
+
+/* selector specificity */
+/* (1, 0, 0) */
+/* #heading {
+    color: green;
+} */
+
+/* (0, 1, 0) */
+/* .heighlight {
+    color: deeppink;
+} */
+
+/* 0
+1
+01
+10 */
+
+
+
+/* (0, 0, 1) */
+/* h1 {
+    color: dodgerblue;
+} */
+/* (id, class, element) */
+/* (1, 0, 1) */
+/* h1#heading {
+    color: green;
+} */
+
+/* (0, 1, 1) */
+/* h1.heighlight {
+    color: blue;
+} */
+
+
+/* >
++
+~ */
+
+/* article :nth-child(odd) {
+    color: red;
+}
+
+
+
+article :nth-child(even) {
+    color: green;
+} */
+
+/* article :nth-child(4n) {
+    color: green;
+} */
+
+
+
+/* article :first-of-type {
+    color: green;
+} */
+/* colors
+
+1. named colors
+2. RGB
+3. HSL
+4. Hexadecomal */
+
+.box {
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(circle at top left, white, yellow);
+    /* border: 10px dashed royalblue; */
+    /* border-bottom: 1px solid red; */
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    
+}
+
+/* p {
+    color: dodgerblue;
+}
+
+strong {
+    color: initial;
+} */
+
+/* p::first-line {
+    font-size: 48px;
+    color: red;
+} */
+
+/* ::selection {
+    background-color: pink;
+} */
+
+/* p::before {
+    content: '...';
+    display: block;
+}
+
+p::after {
+    content: '...';
+} */
+
+
+
+/* article :first-child {
+    color: red;
+}
+
+article :nth-child(3) {
+    color: green;
+}
+
+article :last-child {
+    color: orange;
+} */
+
+/* p.first {
+    color: orange
+}
+
+div.first {
+    color: red;
+} */
+
+/* section ~ p {
+    color: orange;
+} */
+
+/* p {
+    color: green
+} */
+
+/* #firstP {
+    color: green
+}
+
+#secondP {
+    color: blue 
+} */
+
+/* .lorem10 {
+    color: green;
+}
+
+.lorem5 {
+    color: blue;
+}
+
+.bgYellow {
+    background-color: yellow;
+}
+
+.bgRed {
+    background-color: red;
+} */
+
+/* p {
+    color: red;
+} */
+
+/* check for word in entire property
+a[href*="google"] */
+
+/* check wether href start with provided word
+a[href^="https"] */
+
+/* check wether href end with provided word
+a[href$="com"] { */
+
+/* a[href$="com"] {
+    color: green;
+}
+
+a[href$="in"] {
+    color: blue;
+} */
+
+
+/* a[href*="facebook"] {
+    color: blue;
+} */
+
+/* a[target="_blank"] {
+    color: orange;
+} */
+
+/* div > p {
+    color: green;
+}
+
+section > p {
+    color: red;
+} */
