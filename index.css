@@ -1,3 +1,106 @@
+/* name
+hexcode
+rgb
+hsl */
+
+
+
+/* (id, clas, element) */
+
+/* (1, 0, 0) */
+
+#title {
+    /* color: #0000ff; */
+    /* color: rgb(255, 0, 0); */
+    color: hsl(217, 90%, 61%);
+}
+
+/* (0,1,0) */
+.heading {
+    /* color: #ff0000; */
+    /* color: rgb(0, 0, 255); */
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    background-color: dodgerblue;
+    box-shadow: 10px 10px 30px gray;
+    /* border: 10px solid green; */
+    /* border: 10px dashed green; */
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: green; */
+    /* border-radius: 50%; */
+    /* background: linear-gradient(45deg, red, green, blue); */
+    /* background: radial-gradient(circle at top left,white, yellow ); */
+}
+
+#title {
+    margin: 20px;
+    text-shadow: 0 0 10px grey;
+}
+
+/* (0, 0, 1) */
+/* h1 {
+    color: green
+} */
+
+/* p {
+    color: red
+} */
+
+/* div ~ p {
+    color: red;
+} */
+
+/* >
++
+~ */
+
+/* ul > li:first-child {
+    color: red;
+}
+
+ul > li:last-child {
+    color: green
+} */
+
+/* ul > li:nth-child(odd) {
+    color: red;
+}
+
+ul >li:nth-child(even) {
+    color: green;
+} */
+
+/* p::first-letter {
+    font-size: 48px;
+    font-weight: 700;
+    color: red;
+} */
+
+/* p::first-line {
+    font-size: 48px;
+    font-weight: 700;
+    color: red;
+} */
+
+/* ::selection {
+    background-color: yellow;
+} */
+
+/* p::before {
+    content: '...';
+    display: block;
+} */
+
+/* p::after {
+    content: '...';
+} */
+
+
 /* relational Selectors */
 /* 1. cleaner markup */
 /* can be fragile */
@@ -67,18 +170,14 @@ article :nth-child(even) {
 3. HSL
 4. Hexadecomal */
 
-.box {
+/* .box {
     height: 200px;
     width: 200px;
     background: radial-gradient(circle at top left, white, yellow);
-    /* border: 10px dashed royalblue; */
-    /* border-bottom: 1px solid red; */
     border-color: red;
     border-width: 1px;
     border-style: solid;
-    border-radius: 50%;
-    
-}
+} */
 
 /* p {
     color: dodgerblue;
