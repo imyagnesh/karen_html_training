@@ -1,0 +1,30 @@
+.wrapper {
+    padding: 50px;
+    background-color: whitesmoke;
+    
+}
+
+.container {
+    position: relative;
+    background-color: yellow;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.container > div:nth-child(1) {
+    background-color: pink;
+}
+
+.container > div:nth-child(2) {
+    background-color: dodgerblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container > div:nth-child(3) {
+    background-color: gold;
+}
