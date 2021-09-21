@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    /* grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(2, 100px); */
+    grid-template: repeat(3, 100px) / 100px 100fr;
+    border: 3px solid gold;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    ". footer";
+    height: 100vh;
+    /* row-gap: 1rem;
+    column-gap: 1rem; */
+    gap: 1rem 2rem;
+}
+
+/* width 500
+100px 30% 70%
+100px 150px 350px = 600px */
+
+/* width 500
+100px 30fr 70fr
+100px 120px 280px = 500px */
+
+.box {
+    background-color: orange;
+}
+
+.box-one {
+    /* grid-column: 1 / span 2; */
+    grid-area: header;
+    /* grid-row: 2 / span 2; */
+     /* start / end  */
+     /* row / column */
+    /* grid-area: 2 / 2 / 2 / 3; */
+}
+
+.box-four {
+    grid-area: footer;
+}
